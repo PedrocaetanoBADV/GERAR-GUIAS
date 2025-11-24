@@ -5,7 +5,7 @@
   <title>Gerar Guia</title>
 </head>
 <body>
-  <h1>Gerar Petição</h1>
+  <h1>Gerar Guia</h1>
   <input type="text" id="processo" placeholder="Número do processo">
   <button onclick="gerarPeticao()">Gerar</button>
   <pre id="resultado"></pre>
@@ -13,7 +13,7 @@
   <script>
     async function gerarPeticao() {
       const processo = document.getElementById("processo").value;
-      const url = "SUA_URL_DO_WEB_APP"; // substitua aqui
+      const url = "https://script.google.com/macros/s/AKfycbwIwnEbarOWbYG7S7iCDdn50UOc5j2Fy313s1dIQyyRVlE1BZq15SXqZMGe49gNlKk0/execP"; // substitua aqui
 
       const response = await fetch(url, {
         method: "POST",
